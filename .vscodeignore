@@ -6,6 +6,7 @@ register.ps1
 generate-icon.ps1
 check-publish-setup.ps1
 refresh-path.ps1
+reset-vsce-auth.ps1
 
 # Editor / VCS metadata
 .vscode/**

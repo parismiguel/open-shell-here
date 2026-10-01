@@ -90,7 +90,7 @@ else {
 
 Write-Host ''
 if ($nodeOk -and $npmOk -and $vsceOk) {
-    Write-Host 'Toolchain looks complete. Next: vsce login <your-azure-devops-org>' -ForegroundColor Green
+    Write-Host 'Toolchain looks complete. Next: vsce login proyectos-innovadores-eirl' -ForegroundColor Green
 }
 else {
     Write-Host 'Install the missing tools listed above, then re-run this script.' -ForegroundColor Yellow
