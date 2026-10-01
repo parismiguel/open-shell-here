@@ -3,7 +3,8 @@
     "displayName": "Open Shell Here (external terminal)",
     "description": "Open PowerShell, Command Prompt, or Git Bash in a folder from the Explorer context menu. Launches the shell directly, bypassing ConPTY.",
     "version": "0.1.0",
-    "publisher": "REPLACE_WITH_YOUR_PUBLISHER_ID",
+    "publisher": "proyectos-innovadores-eirl",
+    "icon": "icon.png",
     "license": "MIT",
     "categories": [
         "Other"

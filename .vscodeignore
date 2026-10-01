@@ -2,6 +2,7 @@
 # Marketplace. These are NOT shipped to users.
 install.ps1
 register.ps1
+generate-icon.ps1
 
 # Editor / VCS metadata
 .vscode/**
