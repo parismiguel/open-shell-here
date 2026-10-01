@@ -1,8 +1,11 @@
 # Local development helpers for installing this extension without the
-# Marketplace. These are NOT shipped to users.
+# Marketplace, and for diagnosing the publishing toolchain.
+# These are NOT shipped to users.
 install.ps1
 register.ps1
 generate-icon.ps1
+check-publish-setup.ps1
+refresh-path.ps1
 
 # Editor / VCS metadata
 .vscode/**
