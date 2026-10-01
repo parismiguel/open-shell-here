@@ -1,6 +1,6 @@
 # Open Shell Here
 
-[![Visual Studio Marketplace](https://img.shields.io/badge/Marketplace-open--shell--here-blue)](https://marketplace.visualstudio.com/items?itemName=REPLACE_WITH_YOUR_PUBLISHER_ID.open-shell-here)
+[![Visual Studio Marketplace](https://img.shields.io/badge/Marketplace-open--shell--here-blue)](https://marketplace.visualstudio.com/items?itemName=proyectos-innovadores-eirl.open-shell-here)
 
 Open **PowerShell**, **Command Prompt**, or **Git Bash** in any folder — straight from
 the VS Code Explorer context menu.
@@ -104,7 +104,7 @@ extension — the built-in terminal works fine.
 ## Development
 
 ```powershell
-git clone https://github.com/REPLACE_WITH_YOUR_GITHUB_USER/open-shell-here.git
+git clone https://github.com/parismiguel/open-shell-here.git
 cd open-shell-here
 node --check extension.js     # syntax check
 .\install.ps1                # install into the local VS Code

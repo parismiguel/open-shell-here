@@ -5,6 +5,14 @@
     "version": "0.1.0",
     "publisher": "proyectos-innovadores-eirl",
     "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/parismiguel/open-shell-here.git"
+    },
+    "homepage": "https://github.com/parismiguel/open-shell-here#readme",
+    "bugs": {
+        "url": "https://github.com/parismiguel/open-shell-here/issues"
+    },
     "license": "MIT",
     "categories": [
         "Other"
