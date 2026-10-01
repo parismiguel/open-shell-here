@@ -1,0 +1,9 @@
+# Development / build output
+node_modules/
+*.vsix
+.vscode-test/
+
+# Local OS noise
+Thumbs.db
+desktop.ini
+.DS_Store

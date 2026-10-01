@@ -1,0 +1,73 @@
+{
+    "name": "open-shell-here",
+    "displayName": "Open Shell Here (external terminal)",
+    "description": "Open PowerShell, Command Prompt, or Git Bash in a folder from the Explorer context menu. Launches the shell directly, bypassing ConPTY.",
+    "version": "0.1.0",
+    "publisher": "REPLACE_WITH_YOUR_PUBLISHER_ID",
+    "license": "MIT",
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "terminal",
+        "powershell",
+        "command prompt",
+        "git bash",
+        "conpty",
+        "windows server 2016",
+        "external terminal"
+    ],
+    "engines": {
+        "vscode": "^1.90.0"
+    },
+    "os": [
+        "win32"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "openShellHere.powershell",
+                "title": "Open Shell Here: PowerShell"
+            },
+            {
+                "command": "openShellHere.cmd",
+                "title": "Open Shell Here: Command Prompt"
+            },
+            {
+                "command": "openShellHere.gitbash",
+                "title": "Open Shell Here: Git Bash"
+            }
+        ],
+        "menus": {
+            "explorer/context": [
+                {
+                    "command": "openShellHere.powershell",
+                    "group": "7_modification@1",
+                    "when": "explorerResourceIsFolder"
+                },
+                {
+                    "command": "openShellHere.gitbash",
+                    "group": "7_modification@2",
+                    "when": "explorerResourceIsFolder"
+                },
+                {
+                    "command": "openShellHere.cmd",
+                    "group": "7_modification@3",
+                    "when": "explorerResourceIsFolder"
+                }
+            ]
+        },
+        "configuration": {
+            "title": "Open Shell Here",
+            "properties": {
+                "openShellHere.profiles": {
+                    "type": "object",
+                    "default": {},
+                    "scope": "window",
+                    "description": "Custom shells to offer. Each key becomes an 'Open Shell Here: <name>' command and replaces the built-in defaults when non-empty."
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+# Local development helpers for installing this extension without the
+# Marketplace. These are NOT shipped to users.
+install.ps1
+register.ps1
+
+# Editor / VCS metadata
+.vscode/**
+.gitignore
+.git/**
